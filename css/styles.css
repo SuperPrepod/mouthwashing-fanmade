@@ -1,0 +1,112 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+  
+  body{
+      width: 1920px;
+      height: auto;
+      font-family: 'Roboto', sans-serif;
+      background-image: url(../assets/header_img.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  
+  header{
+      position: relative;
+      width: 1920px;
+      height: 600px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+  }  
+
+  .txt_style{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    color: white;
+  }
+
+  .h1_style{
+    color: red;
+  }
+
+  .header_welcome{
+    width: 1920px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header_buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .button_box{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0px;
+    border:5px solid red
+  }
+  
+  .header_welcome_box{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0px;
+    border:10px solid red
+  }
+
+  .h1{
+    color: white;
+  }
+
+
+  main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+  .main_box_characters{
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .about{
+    width: 60%;
+    height: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .about_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
